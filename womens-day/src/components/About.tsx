@@ -4,13 +4,13 @@ import { Heart } from "lucide-react";
 const acupunctureImages = [
   {
     url: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    alt: "Relaxing",
-    title: "Relaxing",
+    alt: "ஓய்வு",
+    title: "மன அமைதி",
   },
   {
     url: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800",
-    alt: "Acupuncture Therapy Session",
-    title: "Holistic Healing",
+    alt: "அக்குபங்சர் சிகிச்சை அமர்வு",
+    title: "முழுமையான நலன்",
   },
 ];
 
@@ -25,16 +25,17 @@ export function About() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-20">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-ruby-50 border border-ruby-100 rounded-full text-sm font-medium text-ruby-700 mb-4">
-            <span>♀</span> About Us <span>♀</span>
+            <span>♀</span> எங்களை பற்றி <span>♀</span>
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-serif text-gray-900 tracking-tight">
-            Welcome to{" "}
+            RUBY {" "}
             <span className="bg-gradient-to-r from-ruby-600 to-ruby-500 bg-clip-text text-transparent">
-              Ruby Wellness Center
+              WELLNESS CENTER
             </span>
           </h2>
           <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-500 leading-relaxed">
-            A dedicated acupuncture clinic focused on women's health, pain relief, and holistic balance in Gobichettipalayam.
+            கோபிச்செட்டிபாளையத்தில் பெண்களின் ஆரோக்கியம், வலி நிவாரணம் மற்றும்
+            முழுமையான நலனுக்காக அர்ப்பணிக்கப்பட்ட அக்குபங்சர் சிகிச்சை மையம்.
           </p>
         </div>
 
@@ -43,12 +44,14 @@ export function About() {
           {/* Left - Visual Images */}
           <div className="grid grid-cols-2 gap-6 relative">
             {acupunctureImages.map((img, idx) => (
-              <div key={idx} className={`flex flex-col gap-4 ${idx % 2 === 1 ? 'mt-12' : ''}`}>
+              <div key={idx} className={`flex flex-col gap-4 ${idx % 2 === 1 ? "mt-12" : ""}`}>
                 <div className="overflow-hidden rounded-3xl shadow-2xl border-8 border-white aspect-[3/4] transition-all duration-500 hover:rotate-2">
                   <img src={img.url} alt={img.alt} className="w-full h-full object-cover" />
                 </div>
                 <div className="bg-ruby-50 border border-ruby-100 p-3 rounded-2xl shadow-sm">
-                  <p className="text-xs font-black text-ruby-800 uppercase tracking-widest text-center">{img.title}</p>
+                  <p className="text-xs font-black text-ruby-800 uppercase tracking-widest text-center">
+                    {img.title}
+                  </p>
                 </div>
               </div>
             ))}
@@ -61,15 +64,22 @@ export function About() {
           {/* Right - Text */}
           <div className="text-center lg:text-left">
             <h3 className="text-2xl sm:text-3xl font-bold font-serif text-gray-900 mb-6">
-              Your Trusted{" "}
-              <span className="text-ruby-600">Acupuncture Clinic</span>
+              உங்கள் நம்பிக்கையான{" "}
+              <span className="text-ruby-600">அக்குபங்சர் சிகிச்சை மையம்</span>
             </h3>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                At Ruby Wellness Center, we help you heal naturally and live with balance. Specializing in Six-Qi Healing, Reiki, Bach Flower Remedies, Essential Oils, Color Therapy, and Acupressure, we provide holistic wellness solutions that address the root cause of stress, emotional imbalance, and physical discomfort.
+                ரூபி வெல்ல்நெஸ் சென்டரில், இயற்கை முறையில் உடலும் மனமும்
+                ஆரோக்கியமாக இருக்க நாங்கள் உதவுகிறோம். சிக்ஸ்-கீ ஹீலிங்,
+                பாக் பிளவர் ரெமிடீஸ், எசென்ஷியல் ஆயில்ஸ், கலர் தெரபி மற்றும்
+                அகுபிரஷர் போன்ற சிகிச்சைகள் மூலம் மன அழுத்தம், உணர்ச்சி சமநிலை
+                மற்றும் உடல் வலிகளின் அடிப்படை காரணங்களை சரி செய்கிறோம்.
               </p>
               <p>
-                Our approach blends ancient wisdom with modern practices to support stress relief, emotional balance, pain management, and personalized therapy sessions. We are your trusted partner for wellness and healing in Gobichettipalayam.
+                பழமையான அறிவையும் நவீன சிகிச்சை முறைகளையும் இணைத்து,
+                மனஅமைதி, வலி நிவாரணம் மற்றும் தனிப்பட்ட தேவைக்கேற்ற
+                சிகிச்சை அமர்வுகளை வழங்குகிறோம். கோபிச்செட்டிபாளையத்தில்
+                உங்கள் ஆரோக்கிய பயணத்திற்கு நாங்கள் உங்கள் நம்பிக்கையான துணை.
               </p>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
@@ -80,7 +90,7 @@ export function About() {
                 className="inline-flex items-center gap-2 px-7 py-3.5 text-sm font-semibold text-white bg-gradient-to-r from-ruby-600 to-ruby-700 rounded-full shadow-lg shadow-ruby-500/25 hover:shadow-ruby-500/40 hover:scale-105 transition-all duration-300"
               >
                 <Heart className="h-4 w-4" />
-                Visit Us on JustDial
+                Just Dial-ல் எங்களை பாருங்கள்
               </a>
             </div>
           </div>

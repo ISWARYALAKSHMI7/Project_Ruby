@@ -56,7 +56,7 @@ export function Hero() {
           {/* Women's Day Badge */}
           <div className="animate-fade-in-down inline-flex items-center gap-2 px-5 py-2.5 bg-ruby-50 border border-ruby-200 rounded-full text-sm font-medium text-ruby-700 mb-6 sm:mb-8 shadow-sm">
             <span className="text-lg">✿</span>
-            <span>International Women's Day 2026</span>
+            <span>சர்வதேச மகளிர் தினம் 2026</span>
             <span className="text-lg">✿</span>
           </div>
 
@@ -99,22 +99,23 @@ export function Hero() {
 
           {/* Subtitle */}
           <p className="animate-fade-in-up animation-delay-600 mt-6 sm:mt-8 text-base sm:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            <span className="font-semibold text-ruby-700">Ruby Wellness Center</span> is a dedicated
-            <span className="font-semibold text-ruby-600"> acupuncture clinic</span> in Gobichettipalayam, Tamil Nadu —
-            supporting women with gentle, natural pain relief, stress reduction, and holistic balance.
-          </p>
+  <span className="font-semibold text-ruby-700">Ruby Wellness Center </span> 
+   கோபிச்செட்டிபாளையத்தில் அமைந்துள்ள  
+  <span className="font-semibold text-ruby-600"> அக்குபஞ்சர் சிகிச்சை மையம்</span> ஆகும் —  
+  பெண்களுக்காக மென்மையான, இயற்கையான வலி நிவாரணம், மனஅழுத்த குறைப்பு மற்றும் முழுமையான சமநிலையை வழங்குகிறது.
+</p>
 
-          {/* CTA Buttons */}
-          <div className="animate-fade-in-up animation-delay-700 mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href="https://www.justdial.com/Gobichettipalayam/Ruby-Wellness-Center-Gandhi-Nagar/9999P4285-4285-251108084249-I7X2_BZDET"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto group inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-white bg-gradient-to-r from-ruby-600 to-ruby-700 rounded-full shadow-xl shadow-ruby-500/25 hover:shadow-ruby-500/40 hover:scale-105 transition-all duration-300"
-            >
-              Visit Our Clinic on JustDial
-              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </a>
+{/* CTA Buttons */}
+<div className="animate-fade-in-up animation-delay-700 mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+  <a
+    href="https://www.justdial.com/Gobichettipalayam/Ruby-Wellness-Center-Gandhi-Nagar/9999P4285-4285-251108084249-I7X2_BZDET"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto group inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-white bg-gradient-to-r from-ruby-600 to-ruby-700 rounded-full shadow-xl shadow-ruby-500/25 hover:shadow-ruby-500/40 hover:scale-105 transition-all duration-300"
+  >
+    JustDial-இல் எங்கள் கிளினிக்கைப் பார்வையிடுங்கள்
+    <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+  </a>
           </div>
 
         </div>

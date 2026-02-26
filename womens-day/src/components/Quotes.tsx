@@ -26,16 +26,16 @@ export function Quotes() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-20">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 border border-white/20 rounded-full text-sm font-medium text-ruby-200 mb-4 backdrop-blur-sm">
-            ♀ Healing Inspiration ♀
+            ♀ உந்துதல் ♀
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-serif text-white tracking-tight">
-            Words of Calm for{" "}
+            பெண்களின்{" "}
             <span className="bg-gradient-to-r from-ruby-300 to-blush-300 bg-clip-text text-transparent">
-              Women's Wellness
+              நலனுக்கான சொற்கள்
             </span>
           </h2>
           <p className="mt-4 sm:mt-6 text-base sm:text-lg text-ruby-200 leading-relaxed">
-            Gentle reminders that support healing, balance, and strength.
+            குணமடைதல், சமநிலை மற்றும் உள்ளார்ந்த வலிமையை ஊக்குவிக்கும் மென்மையான நினைவூட்டல்கள்.
           </p>
         </div>
 
@@ -48,9 +48,11 @@ export function Quotes() {
               </div>
             </div>
             <p className="text-2xl sm:text-3xl md:text-4xl font-cursive text-white leading-relaxed">
-              "Healing is a partnership between care, patience, and the body's own wisdom."
+              “அக்கறையும், பொறுமையும், உடலின் இயற்கை அறிவும் சேர்ந்தால்தான் உண்மையான குணமடைதல் நடைபெறுகிறது.”
             </p>
-            <p className="mt-4 text-ruby-300 font-medium">— Ruby Wellness Center</p>
+            <p className="mt-4 text-ruby-300 font-medium">
+              — Ruby Wellness Center
+            </p>
           </div>
         </div>
       </div>

@@ -2,12 +2,11 @@ import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Inspiration", href: "#quotes" },
-  { label: "Gallery", href: "#gallery" },
+  { label: "முகப்பு", href: "#home" },
+  { label: "எங்களை பற்றி", href: "#about" },
+  { label: "உந்துதல்", href: "#quotes" },
+  { label: "படங்கள்", href: "#gallery" },
 ];
-
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +31,7 @@ export function Navbar() {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3 group">
             <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-full overflow-hidden border-2 border-ruby-200 group-hover:border-ruby-400 transition-all duration-300 shadow-md">
-              <img src="/logo.jpg" alt="Ruby Wellness Center" className="h-full w-full object-cover" />
+              <img src="/logo.jpg" alt="ரூபி வெல்னஸ் மையம்" className="h-full w-full object-cover" />
             </div>
             <div className="flex flex-col">
               <span className="text-lg sm:text-xl font-bold font-serif bg-gradient-to-r from-ruby-700 to-ruby-500 bg-clip-text text-transparent leading-tight">
@@ -65,7 +64,7 @@ export function Navbar() {
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-ruby-600 to-ruby-700 rounded-full shadow-lg shadow-ruby-500/25 hover:shadow-ruby-500/40 hover:scale-105 transition-all duration-300"
             >
-              Visit Us
+              எங்களைப் பார்வையிடுங்கள்
             </a>
           </div>
 
@@ -104,7 +103,7 @@ export function Navbar() {
               onClick={() => setIsOpen(false)}
               className="block w-full text-center px-5 py-3 text-sm font-semibold text-white bg-gradient-to-r from-ruby-600 to-ruby-700 rounded-full shadow-lg"
             >
-              Visit Us
+              எங்களைப் பார்வையிடுங்கள்
             </a>
           </div>
         </div>
